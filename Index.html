@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="viewport" content="IE=edge">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<title>Portfolio</title>
+</head>
+
+<body>
+<!--Encabezado menu-->
+<div class="contenedor-header">
+	<header>
+		<div class="logo">
+			<a href="#"> Bryan </a>
+		</div>
+		<nav id="nav" >
+			<ul>
+				<li><a href="#inicio" onclick="seleccionar()"> INICIO </a></li>
+				<li><a href="#sobremi" onclick="seleccionar()"> SOBRE MI </a></li>
+				<li><a href="#skills" onclick="seleccionar()"> SKILLS </a></li>
+				<li><a href="#curriculum" onclick="seleccionar()"> CURRICULUM </a></li>
+				<li><a href="#portfolio" onclick="seleccionar()"> PORTFOLIO </a></li>
+				<li><a href="#contacto" onclick="seleccionar()"> CONTACTO </a></li>
+			</ul>
+		</nav>
+		<div class="nav-responsive" onclick="mostrarOcultarMenu()">
+			<i class="fa-solid fa-bars"></i>
+		</div>
+	</header>
+</div>
+
+<!--Seccion de inicio-->
+<section id="inicio" class="inicio">
+	<div class="contenido-banner">
+		<div class="contenedor-img">
+			<img src="img/carnet.png" >
+		</div>
+		<h1>Bryan Cisneros</h1>
+		<h2>Ingeniero en Sistemas - Developer</h2>
+		<div class="redes">
+			<a href="#"><i class="fa-brands fa-facebook"></i></a>
+			<a href=""><i class="fa-brands fa-twitter"></i></a>
+			<a href=""><i class="fa-brands fa-instagram"></i></a>
+			<a href=""><i class="fa-brands fa-linkedin"></i></a>
+		</div>
+		
+	</div>
+</section>
+
+<!-- Seccion sobre mi-->
+<section id="sobremi" class="sobremi">
+	<div class="contenido-seccion">
+		<h2>Sobre Mí</h2>
+		<p><span>Hola, soy Bryan Cisneros</span>
+			una persona organizada y con una gran motivación, capaz de adaptarme a cualquier circunstancia 
+			y dar siempre lo mejor de mí en cualquier proyecto, por lo que mi objetivo es un puesto desafiante y dinámico,
+			donde poder compartir mi experiencia y a su vez sumar nuevos conocimientos.
+		</p>
+		<div class="fila">
+			<!-- Datos personales -->
+			<div class="col">
+				<h3> Datos personales</h3>
+				<ul>
+					<li>
+						<strong>Fecha de Nacimiento</strong>
+						27-08-1995
+					</li>
+					<li>
+						<strong>Celular</strong>
+						0990091497
+					</li>
+					<li>
+						<strong>Email</strong>
+						cisneros.brayan.1995@gmail.com
+					</li>
+					<li>
+						<strong>Website</strong>
+						github.com
+					</li>
+					<li>
+						<strong>Dirección</strong>
+						Quito, Barrio Bolivar Rodriguez
+					</li>
+					<li>
+						<strong>Licencia</strong>
+						Tipo B
+					</li>
+				</ul>
+			</div>
+
+			<!-- Intereses -->
+			<div class="col">
+				<h3>Intereses</h3>
+				<div class="contenedor-intereses">
+					<div class="interes">
+						<i class="fa-solid fa-gamepad"></i>
+						<span>JUEGOS</span>
+					</div>
+					<div class="interes">
+						<i class="fa-solid fa-music"></i>
+						<span>MUSICA</span>
+					</div>
+					<div class="interes">
+						<i class="fa-solid fa-plane"></i>
+						<span>VIAJAR</span>
+					</div>
+					<div class="interes">
+						<i class="fa-solid fa-campground"></i>
+						<span>CAMPING</span>
+					</div>
+					<div class="interes">
+						<i class="fa-solid fa-futbol"></i>
+						<span>DEPORTES</span>
+					</div>
+					<div class="interes">
+						<i class="fa-solid fa-book"></i>
+						<span>LIBROS</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button>
+			Descargar CV <i class="fa-solid fa-cloud-arrow-down"></i>
+			<span class="overlay"></span>
+		</button>
+	</div>
+</section>
+
+<!-- Seccion de Skills-->
+<section class="skills" id="skills">
+	<div class="contenido-seccion">
+		<h2>Skills</h2>
+		<div class="fila">
+			<!--Tecnicas de Skill -->
+			<div class="col">
+				<h3>Technical Skills</h3>
+				<div class="skill">
+					<span>Javascript</span>
+					<div class="barra-skill">
+						<div class="progreso">
+							<span>74</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill">
+					<span>Html & Css</span>
+					<div class="barra-skill">
+						<div class="progreso">
+							<span>88</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill">
+					<span>Oracle</span>
+					<div class="barra-skill">
+						<div class="progreso">
+							<span>85</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill">
+					<span>Java</span>
+					<div class="barra-skill">
+						<div class="progreso">
+							<span>80</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill">
+					<span>Php</span>
+					<div class="barra-skill">
+						<div class="progreso">
+							<span>71</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--Professional de Skill -->
+			<div class="col">
+				<h3>Professional Skills</h3>
+				<div class="skill">
+					<span>Comunicacion</span>
+					<div class="barra-skill">
+						<div class="progreso">
+							<span>80</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill">
+					<span>Trabajo en equipo</span>
+					<div class="barra-skill">
+						<div class="progreso">
+							<span>93</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill">
+					<span>Creatividad</span>
+					<div class="barra-skill">
+						<div class="progreso">
+							<span>95</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill">
+					<span>Dedicacion</span>
+					<div class="barra-skill">
+						<div class="progreso">
+							<span>85</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill">
+					<span>Adaptacion</span>
+					<div class="barra-skill">
+						<div class="progreso">
+							<span>88</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+</section>
+
+<!-- Seccion curriculum --->
+<section class="curriculum" id="curriculum">
+	<div class="contenido-seccion">
+		<h2>Curriculum</h2>
+		<div class="fila">
+			<div class="col izquierda">
+				<h3>Educacion</h3>
+				<div class="item izq">
+					<h4>Ingeniero en Sistemas</h4>
+					<span class="casa">Universidad Estatal de Bolivar</span>
+					<span class="fecha">25-11-2021</span>
+					<p>Mis estudios por la universidad fueron de mucha practica enfocado al desarrollo tecnologico</p>
+					<div class="conectori">
+						<div class="circuloi">
+						</div>
+					</div>
+				</div>
+				<div class="item izq">
+					<h4>Ingeniero en Sistemas</h4>
+					<span class="casa">Universidad Estatal de Bolivar</span>
+					<span class="fecha">25-11-2021</span>
+					<p>Mis estudios por la universidad fueron de mucha practica enfocado al desarrollo tecnologico </p>
+					<div class="conectori">
+						<div class="circuloi">
+						</div>
+					</div>
+				</div>
+				<div class="item izq">
+					<h4>Ingeniero en Sistemas</h4>
+					<span class="casa">Universidad Estatal de Bolivar</span>
+					<span class="fecha">25-11-2021</span>
+					<p>Mis estudios por la universidad fueron de mucha practica enfocado al desarrollo tecnologico</p>
+					<div class="conectori">
+						<div class="circuloi">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col derecha">
+				<h3>Experiencia</h3>
+				<div class="item der">
+					<h4>Analista de Sistemas Informaticos</h4>
+					<span class="casa">Makrotech Computers</span>
+					<span class="fecha">Ene 2020 - Feb 2022</span>
+					<p>Seguridad en servidores, prevención de ataques en routers y equipos mikrotik.</p>
+					<div class="conectord">
+						<div class="circulod">
+						</div>
+					</div>
+				</div>
+				
+				<div class="item der">
+					<h4>Pasante en Redes y Seguridad Informatica</h4>
+					<span class="casa">GAD de Guaranda</span>
+					<span class="fecha">Oct 2020 - Nov 2020</span>
+					<p>Cableado Estructurado, configuración de equipos en red (Teléfonos Cisco, Routers, Impresoras y Pcs).</p>
+					<div class="conectord">
+						<div class="circulod">
+						</div>
+					</div>
+				</div>
+				<div class="item der">
+					<h4>Pasante en Redes y Seguridad Informatica</h4>
+					<span class="casa">Hospital Alfredo Noboa</span>
+					<span class="fecha">Ago 2019 - Sep 2019</span>
+					<p> Seguridad en servidores y paginas web (Análisis QA).</p>
+					<div class="conectord">
+						<div class="circulod">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--Seccion portafolio -->
+<section class="portfolio" id="portfolio">
+	<div class="contenido-seccion">
+		<h2>Portfolio</h2>
+		<div class="galeria">
+			<div class="proyecto">
+				<img src="img/ejemplo1.png" alt="">
+				<div class="overlay">
+					<h3>Diseño Creativo en Java</h3>
+					<p>Fotografia</p>
+				</div>
+			</div>
+			<div class="proyecto">
+				<img src="img/ejemplo2.png" alt="">
+				<div class="overlay">
+					<h3>Diseño Creativo en Java</h3>
+					<p>Fotografia</p>
+				</div>
+			</div>
+			<div class="proyecto">
+				<img src="img/ejemplo3.png" alt="">
+				<div class="overlay">
+					<h3>Diseño Creativo en Java</h3>
+					<p>Fotografia</p>
+				</div>
+			</div>
+			<div class="proyecto">
+				<img src="img/ejemplo4.png" alt="">
+				<div class="overlay">
+					<h3>Diseño Creativo en Java</h3>
+					<p>Fotografia</p>
+				</div>
+			</div>
+			<div class="proyecto">
+				<img src="img/ejemplo5.png" alt="">
+				<div class="overlay">
+					<h3>Diseño Creativo en Java</h3>
+					<p>Fotografia</p>
+				</div>
+			</div>
+			<div class="proyecto">
+				<img src="img/ejemplo6.png" alt="">
+				<div class="overlay">
+					<h3>Diseño Creativo en Java</h3>
+					<p>Fotografia</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--Seccion de contacto -->
+<section class="contacto" id="contacto">
+	<div class="contenido-seccion">
+		<h2>Contacto</h2>
+		<div class="fila">
+			<!--Formulario-->
+			<div class="col">
+				<input type="text" placeholder="Tu nombre">
+				<input type="text" placeholder="Numero telefonico">
+				<input type="text" placeholder="Direccion de correo">
+				<input type="text" placeholder="Asunto">
+				<textarea name="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+				<button>
+					Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+					<span class="overlay"></span>
+				</button>
+			</div>
+			<!--Mapa-->
+			<!-- EDITAR DATOS PERSONALES -->
+			<div class="col">
+				<img src="img/ubicacion1.png" alt="">
+				<div class="info">
+					<ul>
+						<li>
+							<i class="fa-solid fa-location-dot"></i>
+							Quito, Bolivar Rodriguez
+						</li>
+						<li>
+							<i class="fa-solid fa-phone-volume"></i>
+							0990091497
+						</li>
+						<li>
+							<i class="fa-solid fa-envelope"></i>cisneros.brayan.1995@gmail.com
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- Footer-->
+	<footer>
+		<a href="#inicio" class="arriba">
+			<i class="fa-solid fa-angles-up"></i>
+		</a>
+		<div class="redes">
+			<a href="#"><i class="fa-brands fa-facebook"></i></a>
+			<a href=""><i class="fa-brands fa-twitter"></i></a>
+			<a href=""><i class="fa-brands fa-instagram"></i></a>
+			<a href=""><i class="fa-brands fa-linkedin"></i></a>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
